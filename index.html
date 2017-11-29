@@ -9,16 +9,80 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
-  <body>
+  <body style="overflow:auto;">
 
-<h1><span class="badge badge-secondary">Le Club des 5</span></h1>
-<img src="./static/img/club_des_cinq.jpg">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Le club des Cinq</a>
-</nav>
+    <nav id="home" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Le Club des Cinq</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#team">Team</a>
+          <a class="nav-item nav-link" href="#techno">Techno</a>
+        </div>
+      </div>
+    </nav>
+    <img width="100%" src="./static/img/club_des_cinq.jpg">
+    <h3 id="team" class="text-center font-weight-bold">Etudiants en web à HETIC, nous sommes le club des cinq de la promotion 2017 à la recherche des points perdus !</h3>
+<!--     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Le club des Cinq</a>
+    </nav>
+ -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div class="row">
+      <div class="col-sm"><img width="100%" border-radius="100%" src="./static/img/17311038_10212206039976917_4333491042898046014_o.png"></div>
+      <div class="col-sm"><img width="100%" border-radius="100%" src="./static/img/Clement.jpg"></div>
+      <div class="col-sm"><img width="100%" border-radius="100%" src="./static/img/id_2.png"></div>
+      <div class="col-sm"><img width="100%" border-radius="100%" src="./static/img/mayeul.png"></div>
+      <div class="col-sm"><img width="100%" border-radius="100%" src="./static/img/Quentin.jpg"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm text-center"><h4>Mélody<br>aka<br>« Shifumi »</h4></div>
+      <div class="col-sm text-center"><h4>Clément<br>aka<br>« Hagrid à poils courts »</h4></div>
+      <div class="col-sm text-center"><h4>Laura<br>aka<br>«  Grammar nazi »</h4></div>
+      <div class="col-sm text-center"><h4>Mayeul<br>aka<br>« Harry Potter »</h4></div>
+      <div class="col-sm text-center"><h4>Quentin<br>aka<br>«  L’indécis »</h4></div>
+    </div>
+    <div class="row">
+      <div class="col-sm text-center"><h5>ecchi goddess</h5></div>
+      <div class="col-sm text-center"><h5>la sagesse incarnée</h5></div>
+      <div class="col-sm text-center"><h5>le rat de bibliothèque</h5></div>
+      <div class="col-sm text-center"><h5>dév en puissance</h5></div>
+      <div class="col-sm text-center"><h5>véritable mélomane</h5></div>
+    </div>
+
+    <div style="border-top: 1px solid #000; margin-top: 110px;-moz-transform: rotate(7.5deg);-o-transform: rotate(7.5deg);-webkit-transform: rotate(7.5deg);-ms-transform: rotate(7.5deg);transform: rotate(7.5deg);"></div>
+
+    <section id="techno">
+      <h2>Techno</h2>
+      <div class="row">
+        <div class="col-sm-2 text-center"><h5>HTML</h5></div>
+        <div class="col-sm-2 text-center"><h5>CSS</h5></div>
+        <div class="col-sm-2 text-center"><h5>PHP</h5></div>
+        <div class="col-sm-6 text-center"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 text-center"><h5>Python</h5></div>
+        <div class="col-sm-2 text-center"><h5>Django</h5></div>
+        <div class="col-sm-2 text-center"><h5>JavaScript</h5></div>
+        <div class="col-sm-6 text-center"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 text-center"><h5>C</h5></div>
+        <div class="col-sm-2 text-center"><h5>C++</h5></div>
+        <div class="col-sm-2 text-center"><h5>MySQL</h5></div>
+        <div class="col-sm-6 text-center"></div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <img width="30px" style="float: left;" src="./static/img/copyright_2.png">
+      <h3 class="text-center">Web P2020</h3>
+      <img width="100px" style="float: right;" src="./static/img/logo.jpg">
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
